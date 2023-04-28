@@ -1,0 +1,77 @@
+<!--tipo de documento -->
+<!DOCTYPE html>
+
+<!--etiqueta principal-->
+<html>
+
+<!--información general para el browser-->
+<head>
+
+    <!--forma en que se muestran los caracteres especiales-->
+    <meta charset="utf-8" />
+
+    <!--descripción de la página-->
+    <meta name="formulario" content="formulario de contacto"/>
+    <!--palabras claves-->
+
+    <meta name="keywords" content="nombre, apellido, teléfono, mensaje"/>
+    <meta name="lenguaje" content="español"/>
+
+    <!--autor de la página-->
+    <meta name="Autor de la página" content="Mauro Galeano"/>
+
+    <!--título de la página-->
+    <title>Contactame</title>
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="Contactame.css">
+</head>
+
+<!--contenido que se mostrará-->
+<body>
+    <!--Cabecera de la página-->
+    <header>
+        <div class=" formulario">
+            <h1> CONTACTAME </h1>
+            <form> 
+                <fieldset>
+                    <legend> Tus datos </legend>
+                    <div class="Nombre y apellido"> 
+                        <label> Nombre y Apellido 
+                            <br>
+                            <input type="Text" placeholder="Nombre y Apellido" required>*
+                        </label>
+                    </div> 
+                   
+                    <div class="Asunto">
+                        <label> Asunto
+                            <br>
+                            <input type="texto" placeholder="Escriba el asunto">
+                        </label>
+                    </div>
+                    <div class="Teléfono">
+                        <label> Número de Teléfono
+                            <br>
+                            <input type="teléfono" placeholder="ingrese su teléfono" required>*
+                        </label>
+                    <div class="email">
+                        <label> Email 
+                            <br>
+                            <input type="email" placeholder="ingrese su email" required >*
+                        </label>
+                    </div>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend> Tu mensaje </legend> 
+                    <div class="Mensaje">
+                        <h3> Escriba su mensaje </h3>
+                        <textarea name="comment" colse="60" rows="5">  </textarea>*
+                    </div>
+                    <h2> Enviar mensaje </h2>
+                    <input type="submit" value="Enviar" />
+                </fieldset>      
+            </form>
+        </div>
+    </header>
+</body>         

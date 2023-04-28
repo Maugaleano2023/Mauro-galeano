@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+h1 {
+    background-color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 72px;
+    text-align: center;
+}
+legend {
+    background-color: aquamarine;
+    font-size: x-large;
+    padding-bottom: 10px;
+}

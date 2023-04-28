@@ -1,0 +1,140 @@
+body {
+    background-color: cornflowerblue;
+}
+#título {
+    background-color: darkblue;
+    color: white;
+    padding: 150px;
+    margin: 20px; width: 1000px;
+    border-style: solid;
+    border-color: black;
+    font-size: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#derecha {
+    float: right; margin: auto;
+    clear: left; width: 500px; height: 1350px;
+    background-color: darkblue;
+    border-style: solid;
+    border-color: black;
+    
+}
+#fotoperfil {
+    padding-left: 160px;
+
+}
+#mail, #tel {
+    background-color: darkblue;
+    color: rgb(255, 255, 255);
+    padding: 70 px; 
+    margin: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    background-color: darkblue;
+    color: white;
+    padding: 0 px; width: 400px;
+    margin: 20px; height: 40px;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#datos {
+    background-color: white;
+    color: white;
+    padding: 0px;
+    margin: 20px; width: 400px;
+    border-style: solid;
+    border-color: black;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    padding: 0 px;
+    margin: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#carrera {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 0 px;
+    margin: 20px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+em {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 200 px;
+    margin: 0px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Paréntesis {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    padding: 0 px;
+    margin: 10px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table, tr, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px; width: 80px;
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    color: black;
+    padding: 0 px;
+    margin: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desplegable {
+    color: black;
+    padding: 50 px;
+    margin: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#objetivos2 {
+    color: rgb(255, 255, 255);
+    padding: 50 px;
+    margin: 0px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#líneah {
+    background-color: rgb(0, 0, 0);
+    padding: 50 px; height: 5px;
+    margin: 0px;
+
+}
+
+#contactame {
+    background-color: mediumblue;
+    color: rgb(255, 255, 255);
+    padding: 10px; width: 400px; right: 10px;
+    margin: 10px;
+    text-align: center;
+    
+}
+#botón {
+    padding: 0px;
+    margin: 50px;
+}
